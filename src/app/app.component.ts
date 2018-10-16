@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from './models/product';
 
 @Component({
   selector: 'app-root',
@@ -6,13 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  products: any= [
+  products: Product[]= [
     {
       id: "0",
       name: "Star Wars Lasers",
       description: "Darth Vader vs Luke Skywalker T-Shirt. From fathers to sons. Deluxe Edition",
       price: "9$",
-      stock:11,
+      stock: 11,
       img: "https://ih1.redbubble.net/image.188543604.8381/ra,unisex_tshirt,x2950,heather_grey,front-c,648,590,750,1000-bg,f8f8f8.lite-1.jpg"
     },
     {

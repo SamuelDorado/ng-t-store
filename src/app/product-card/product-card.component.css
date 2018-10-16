@@ -1,0 +1,17 @@
+.product-card {
+    border: 1px solid black;
+    width: 300px;
+    margin: 20px;
+}
+.product-card.red {
+    border: 1px solid red;
+}
+
+.product-card.yellow {
+    border:1px solid yellow;
+}
+
+.product-card.transparent {
+    opacity: 0.6;
+}
+

@@ -1,0 +1,13 @@
+
+<div class="product-card" [ngClass]="cardStatus">
+  <h3>
+  {{product.name | uppercase}}
+  </h3>
+  <img [src]="product.img" alt="" width="250" height="300">
+  <p>
+    {{product.price}}
+  </p>
+  <p>
+    {{product.description}}
+  </p>
+</div>
