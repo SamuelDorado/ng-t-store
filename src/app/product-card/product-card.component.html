@@ -1,0 +1,14 @@
+
+<div class="product-card" [ngClass]="computeColorStatus()">
+  <h3>
+  {{product.name | uppercase}}
+  </h3>
+  <img [src]="product.img" alt="" width="250" height="300">
+  <p>
+    stock: {{product.stock}} - {{product.price}}
+  </p>
+  <p>
+    {{product.description}}
+  </p>
+  <button *ngIf="product.stock > 0" (click)="addToCart()">La Quiero!</button>
+</div>

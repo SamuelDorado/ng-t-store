@@ -1,0 +1,7 @@
+<h1>My T-Shop</h1>
+<button (click)="toggleNoStock()">
+    {{(showNoStockShirts) ? 'Hide no stock' : 'Show no stock' }}
+</button>
+<ng-container *ngFor="let product of products">
+    <app-product-card [product]="product" (onAddToCart)="product.stock= product.stock - 1"></app-product-card>
+</ng-container>
