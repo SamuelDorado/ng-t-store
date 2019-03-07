@@ -3,7 +3,7 @@
   <button (click)="resetFilter()">Mostrar todo</button>
 </div>
 <div class="product--container">
-  <ng-container *ngFor="let product of filteredProducts">
+  <ng-container  *ngFor="let product of filteredProducts">
       <app-product-card [product]="product"></app-product-card>
   </ng-container>
 </div>

@@ -56,7 +56,7 @@ export class AppComponent {
       stock: 1,
       img: 'https://ih0.redbubble.net/image.186214312.7738/ra,unisex_tshirt,x2950,322e3f:696a94a5d4,front-c,648,590,750,1000-bg,f8f8f8.lite-1.jpg'
     }
-  ]
+  ];
 
   filteredProducts: Product[] = [];
 
